@@ -1,0 +1,28 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.17.2
+model_size_bytes: 13196722
+model_uuid: 4decb3f0f47b42949f4735ef9ce336f7
+run_id: 60f0a276c7644e499a0769a552fe3e45
+signature:
+  inputs: '[{"type": "string", "name": "Sex", "required": true}, {"type": "long",
+    "name": "Age", "required": true}, {"type": "double", "name": "Height", "required":
+    true}, {"type": "double", "name": "Weight", "required": true}, {"type": "double",
+    "name": "Duration", "required": true}, {"type": "double", "name": "Heart_Rate",
+    "required": true}, {"type": "double", "name": "Body_Temp", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-05-11 23:48:13.210075'
