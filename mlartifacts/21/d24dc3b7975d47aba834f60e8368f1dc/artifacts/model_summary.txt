@@ -1,0 +1,22 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 11)]              0         
+                                                                 
+ dense (Dense)               (None, 128)               1536      
+                                                                 
+ batch_normalization (Batch  (None, 128)               512       
+ Normalization)                                                  
+                                                                 
+ dropout (Dropout)           (None, 128)               0         
+                                                                 
+ dense_1 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_2 (Dense)             (None, 1)                 65        
+                                                                 
+=================================================================
+Total params: 10369 (40.50 KB)
+Trainable params: 10113 (39.50 KB)
+Non-trainable params: 256 (1.00 KB)
+_________________________________________________________________

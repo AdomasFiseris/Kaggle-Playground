@@ -1,0 +1,31 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 440002
+model_uuid: eae87b786ce9401588b8237d2007642a
+prompts: null
+run_id: 9319fc47e3aa4db588fced8d33046de4
+signature:
+  inputs: '[{"type": "string", "name": "Sex", "required": true}, {"type": "long",
+    "name": "Age", "required": true}, {"type": "double", "name": "Height", "required":
+    true}, {"type": "double", "name": "Weight", "required": true}, {"type": "double",
+    "name": "Duration", "required": true}, {"type": "double", "name": "Heart_Rate",
+    "required": true}, {"type": "double", "name": "Body_Temp", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-27 01:46:15.441501'

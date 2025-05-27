@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/afise/Kaggle%20Playground/mlruns/201429354195328572/c79d447ab37a45e199e9a4c5ef477b27/artifacts
+end_time: 1748315171006
+entry_point_name: ''
+experiment_id: '201429354195328572'
+lifecycle_stage: active
+run_id: c79d447ab37a45e199e9a4c5ef477b27
+run_name: optuna_search
+run_uuid: c79d447ab37a45e199e9a4c5ef477b27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748314659223
+status: 4
+tags: []
+user_id: afise
